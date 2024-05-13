@@ -106,8 +106,8 @@ export default function Home() {
               <Image src="/Af--Les-Chad.jpg" alt="Suez Canal" width={400} height={128}/>
             </figure>
             <div className="card-body">
-              <h2 className="font-semibold leading-7 text-lg gap-2 items-center text-center">Construction of the Suez Canal</h2>
-              <p className="text-center">The Suez Canal connects the Mediterranean Sea to the Red Sea, making it the shortest maritime route to Asia from Europe. Since its completion in 1869, it has become one of the world&apos;s most heavily used shipping lanes.</p>
+              <h2 className="font-semibold leading-7 text-lg gap-2 items-center text-center">Les Chadoufs</h2>
+              <p className="text-center">ts controlled and coherent design recalls principles of the Italian Renaissance, while its iconography evokes prototypes from key periods in Egypt's long history.</p>
               <div className="card-actions self-center">
                 <button className="btn btn-primary">Learn More</button>
               </div>
