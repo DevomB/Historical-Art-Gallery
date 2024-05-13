@@ -70,7 +70,98 @@ export default function Home() {
             </figure>
             <div className="card-body">
               <h2 className="card-title text-center">Girl with a Pearl Earring</h2>
-              <p className="text-center">This piece has become a cultural icon, inspiring works of art across different mediums and serving as a symbol of beauty and mystery. The painting's enduring appeal has cemented its place in art history as a masterpiece of the Dutch Golden Age.</p>
+              <p className="text-center">This piece has become a cultural icon, inspiring works of art across different mediums and serving as a symbol of beauty and mystery. The painting&apos;s enduring appeal has cemented its place in art history as a masterpiece of the Dutch Golden Age.</p>
+              <div className="card-actions self-center">
+                <button className="btn btn-primary">Learn More</button>
+              </div>
+            </div>
+          </div>
+
+          <div className="card bg-base-100 shadow-xl">
+            <figure>
+              <Image src="/Rom--Head-of-Fog.jpg" alt="Wanderer above the Sea of Fog" width={184} height={128}/>
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title text-center">Wanderer above the Sea of Fog</h2>
+              <p className="text-center">Romanticism was characterized by its emphasis on emotion and individualism, paganism, idealization of nature, distrust of science and industrialization. It shows a man confronting the vastness of nature and ultimately God.</p>
+              <div className="card-actions self-center">
+                <button className="btn btn-primary">Learn More</button>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+      <br/> {/* ---------------------------------------- ROW 2 --------------------------------------------------------------------------------------------------------- */ }
+
+      <h2 className="text-5xl font-bold text-center text-purple-600 mb-8 tracking-wide shadow-lg">African Art</h2>
+
+      <div className="flex justify-center items-center h-screen">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <div className="card bg-base-100 shadow-xl flex flex-col">
+          <figure>
+            <Image src="/Af--Les-Chad.jpg" alt="Les Chadoufs" width={350} height={200}/>
+          </figure>
+          <div className="card-body">
+            <div className="text-center">
+              <h2 className="card-title">Les Chadoufs</h2>
+              <p>Les Chadoufs controlled and coherent design recalls principles of the Italian Renaissance, while its iconography evokes prototypes from key periods in Egypt&apos;s long history</p>
+            </div>
+            <div className="card-actions self-center">
+              <button className="btn btn-primary">Learn More</button>
+            </div>
+          </div>
+        </div>
+
+          <div className="card bg-base-100 shadow-xl">
+            <figure>
+              <Image src="/Af--Suez.jpg" alt="The Virgin and Child Enthroned" width={500} height={128}/>
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title text-center">Construction of the Suez Canal</h2>
+              <p className="text-center">The Suez Canal connects the Mediterranean Sea to the Red Sea, making it the shortest maritime route to Asia from Europe. Since its completion in 1869, it has become one of the world&apos;s most heavily used shipping lanes.</p>
+              <div className="card-actions self-center">
+                <button className="btn btn-primary">Learn More</button>
+              </div>
+            </div>
+          </div>
+
+          <div className="card bg-base-100 shadow-xl">
+            <figure>
+              <Image src="/Ren--Mona-Lisa.jpg" alt="The Mona Lisa" width={184} height={128}/>
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title text-center">Mona Lisa</h2>
+              <p className="text-center">The Mona Lisa, also known as the Joconde, is an important painting in art history as it is an important key to understand the evolution of the art of the portrait during the Italian Renaissance.</p>
+              <div className="card-actions self-center">
+                <button className="btn btn-primary">Learn More</button>
+              </div>
+            </div>
+          </div>
+
+          <div className="card bg-base-100 shadow-xl">
+            <figure>
+              <Image src="/Ren-Van-Eyke-and-his-Bride.jpg" alt="Arnolfini Portrait" width={184} height={128}/>
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title text-center">Arnolfini Portrait</h2>
+              <p className="text-center">The Arnolfini Portrait, painted by Jan van Eyck in 1434, is significant for its intricate detail, symbolism, and portrayal of the merchant class. It offers insight into 15th-century life, cultural values, and artistic techniques of the Northern Renaissance.</p>
+              <div className="card-actions self-center">
+                <button className="btn btn-primary">Learn More</button>
+              </div>
+            </div>
+          </div>
+
+          <div className="card bg-base-100 shadow-xl">
+            <figure>
+              <Image src="/Bar--Girl-w-a-pearl.jpg" alt="Girl with a pearl earring" width={184} height={128}/>
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title text-center">Girl with a Pearl Earring</h2>
+              <p className="text-center">This piece has become a cultural icon, inspiring works of art across different mediums and serving as a symbol of beauty and mystery. The painting&apos;s enduring appeal has cemented its place in art history as a masterpiece of the Dutch Golden Age.</p>
               <div className="card-actions self-center">
                 <button className="btn btn-primary">Learn More</button>
               </div>
