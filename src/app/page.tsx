@@ -107,7 +107,7 @@ export default function Home() {
             </figure>
             <div className="card-body">
               <h2 className="font-semibold leading-7 text-lg gap-2 items-center text-center">Les Chadoufs</h2>
-              <p className="text-center">ts controlled and coherent design recalls principles of the Italian Renaissance, while its iconography evokes prototypes from key periods in Egypt's long history.</p>
+              <p className="text-center">ts controlled and coherent design recalls principles of the Italian Renaissance, while its iconography evokes prototypes from key periods in Egypt&apos;s long history.</p>
               <div className="card-actions self-center">
                 <button className="btn btn-primary"><a href="https://www.paulfrasercollectibles.com/blogs/art-photography/the-contemporary-and-egyptian-art-collections-of-dr-mohammed-said-farsi" target="_blank" rel="noopener noreferrer">Learn More</a></button>
               </div>
